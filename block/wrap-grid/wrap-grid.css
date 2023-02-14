@@ -1,0 +1,17 @@
+.wrap-grid {
+  width: 100%;
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(52px, auto) 1fr minmax(42px, auto);
+  grid-template-areas:
+          "header"
+          "main"
+          "footer";
+}
+
+@media screen and (max-width: 767px) {
+  .wrap-grid {
+    grid-template-rows: minmax(42px, auto) 1fr minmax(310px, auto);
+  }
+}

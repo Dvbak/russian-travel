@@ -1,0 +1,23 @@
+.place {
+  box-sizing: border-box;
+  max-width: 1280px;
+  padding: 0 148px 92px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    padding: 0 48px 92px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    padding: 0 24px 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    padding: 0 0 66px 0;
+  }
+}
