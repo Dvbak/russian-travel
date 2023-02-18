@@ -5,6 +5,7 @@
   font-weight: 400;
   letter-spacing: 2px;
   color: #aaa;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 767px) {
